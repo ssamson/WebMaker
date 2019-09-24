@@ -19,11 +19,51 @@
   </head>
   <body>
     <!-- create nav bar - navigation bar is a block element - see bootstrap documentation -->
-    <nav class="navbar">
+    <nav class="navbar bg-primary navbar-dark fixed-top">
       <!-- span is an inline element -->
-      <span>Profile</span>
+      <span class="navbar-brand h1 mb-0">Profile</span>
       <!-- check mark icon from font awesome website -->
-      <i class="fas fa-check"></i>
+      <i class="fas fa-check text-light"></i>
     </nav>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="username"><strong>Username</strong></label>
+          <input
+            type="text"
+            placeholder="Enter username here..."
+            class="form-control"
+            id="username"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email"><strong>Email</strong></label>
+          <input
+            type="email"
+            placeholder="Enter email here..."
+            class="form-control"
+            id="email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="firstName"><strong>First Name</strong></label>
+          <input
+            type="text"
+            placeholder="Enter first name here..."
+            class="form-control"
+            id="firstName"
+          />
+        </div>
+        <div class="form-group">
+          <label for="lastName"><strong>Last Name</strong></label>
+          <input
+            type="text"
+            placeholder="Enter last name here..."
+            class="form-control"
+            id="lastName"
+          />
+        </div>
+      </form>
+    </div>
   </body>
 </html>
