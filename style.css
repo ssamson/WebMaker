@@ -14,3 +14,15 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+.absolute-right {
+  right: 15px;
+}
+
+.margin-right {
+  right: 15;
+}
+
+.front {
+  z-index: 10;
+}
